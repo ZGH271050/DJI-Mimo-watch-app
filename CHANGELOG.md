@@ -1,6 +1,6 @@
 # 更新记录（Changelog）
 
-最新版本在最上面。安装包见 [Releases](https://github.com/ZGH271050/watch-osmo/releases)。
+最新版本在最上面。安装包见 [Releases](https://github.com/ZGH271050/DJI-Mimo-watch-app/releases)。
 
 | 版本 | 日期 | 摘要 |
 |---|---|---|

@@ -246,7 +246,7 @@ App 内也有一份滚动日志（`Diag`，同时写 logcat 和 `files/osmo.log`
 
 ## 11. 更新记录
 
-完整记录见 [CHANGELOG.md](CHANGELOG.md)（**最新在最上面**）。安装包发布在 [Releases](https://github.com/ZGH271050/watch-osmo/releases)。
+完整记录见 [CHANGELOG.md](CHANGELOG.md)（**最新在最上面**）。安装包发布在 [Releases](https://github.com/ZGH271050/DJI-Mimo-watch-app/releases)。
 
 | 版本 | 日期 | 摘要 |
 |---|---|---|
