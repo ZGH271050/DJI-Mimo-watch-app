@@ -1,0 +1,31 @@
+# ---- build output ----
+build/
+out/
+*.apk
+*.apk.idsig
+*.dex
+*.class
+
+# ---- third-party checkout (fetched separately, see THIRD_PARTY_LICENSES/) ----
+reference/
+
+# ---- device logs / evidence: contain SSIDs, MACs and IPs of third-party devices ----
+evidence/
+*.log
+ui-log.xml
+/*.xml          # adb uiautomator dumps end up here during debugging
+
+# ---- machine-local paths (copy build.local.example.ps1) ----
+build.local.ps1
+
+# ---- keys ----
+*.keystore
+*.jks
+local.properties
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+*.iml
+Thumbs.db
+.DS_Store
