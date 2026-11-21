@@ -372,7 +372,7 @@ public final class HttpFile {
                 // otherwise hand the very same dead socket to the next request, which then fails
                 // instantly with "unexpected end of stream" having moved no bytes.
                 c.setRequestProperty("Connection", "close");
-                c.setRequestProperty("User-Agent", "watch-osmo/0.1");
+                c.setRequestProperty("User-Agent", "OsmoWatch/0.2.7");
                 if (rangeFrom > 0 || (rangeTo >= 0 && rangeTo >= rangeFrom)) {
                     c.setRequestProperty("Range", rangeHeader(rangeFrom, rangeTo));
                 }

@@ -382,7 +382,7 @@ failed after 3 attempts: Cleartext HTTP traffic to 192.168.2.1 not permitted
 
 `RoundGeometryTest` 的 `fullBleedRow` 断言同步改成 `132/228`，7 个测试仍全部通过（Datalink 那 2 条为既有的非数据路径断言）。
 
-真机截图：`out/evidence/v8-06-grid.png`（预览模式 `--es preview grid`，23 个假文件）。
+真机截图：[grid-rest.png](docs/images/grid-rest.png)（预览模式 `--es preview grid`，23 个假文件）。
 
 ### 13.2 清理缓存与日志
 
@@ -404,7 +404,7 @@ failed after 3 attempts: Cleartext HTTP traffic to 192.168.2.1 not permitted
 边界：**传输中禁用**（否则会删掉正在写的 `.part`，把传输毁掉）；清完日志文件会被下一条日志重新创建，
 不会出现"日志为 null"的状态。
 
-截图：`out/evidence/v8-04-confirm.png`（确认态）、`v8-05-cleaned.png`（清理后）。
+截图是本地抓的（确认态 / 清理后），未随仓库发布；布局与 [grid-rest.png](docs/images/grid-rest.png) 同一套。
 
 ---
 
@@ -419,7 +419,7 @@ failed after 3 attempts: Cleartext HTTP traffic to 192.168.2.1 not permitted
 | 64（v0.2.2） | y=416 | **整个压在按钮下**，滑到底也看不见 |
 | 150（v0.2.3） | y=330 | 在选中行 354 与按钮 372 之上，完整可见 |
 
-预览模式实测（23 项）：`out/evidence/v9-05-bottom.png` 里末行 3 个格子完整露出在按钮上方。
+预览模式实测（23 项）：[grid-bottom.png](docs/images/grid-bottom.png) 里末行 3 个格子完整露出在按钮上方。
 
 ### 14.2 「只加载 23 张」是缩略图请求被取消了
 

@@ -83,7 +83,7 @@
 - 顶部留白 132 → 122（页签下沿 118，留 4px）；
 - 预览模式给假图块上色（`--es preview grid`），这样不用接相机也能看出真实的密度和遮挡关系。
 
-截图：`out/evidence/v10-06-rest.png`（静止，照片铺到底边）、`v10-07-bottom.png`（滚到底，末行完整）。
+截图：[grid-rest.png](docs/images/grid-rest.png)（静止，照片铺到底边）、[grid-bottom.png](docs/images/grid-bottom.png)（滚到底，末行完整）。
 
 <a id="v023"></a>
 ## v0.2.3 — 2026-11-21 — 滑到底、缩略图续载、边缘渐变
@@ -99,8 +99,7 @@
    现在上下两条悬浮条整条都是渐变（顶 0..126、底 136，最外侧仍接近不透明保证文字可读），
    图片会**淡出**到按钮下面，而不是瞬间消失。
 
-实测截图：`out/evidence/v9-04-rest.png`（静止）、`v9-05-bottom.png`（滑到底，末行完整可见）、
-`v9-03-mid-scroll.png`（滑动中，图片从悬浮条下淡出）。
+实测截图见 [grid-rest.png](docs/images/grid-rest.png) / [grid-bottom.png](docs/images/grid-bottom.png)（滑动中的截图未随仓库发布）。
 
 <a id="v022"></a>
 ## v0.2.2 — 2026-11-21 — 相册顶部安全区 + 手动清理

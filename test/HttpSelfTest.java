@@ -489,7 +489,7 @@ public class HttpSelfTest {
     // ----------------------------------------------------------------- main ---
 
     public static void main(String[] args) throws Exception {
-        System.out.println("=== watch-osmo file-fetch self-test (mock camera) ===");
+        System.out.println("=== OsmoWatch file-fetch self-test (mock camera) ===");
         System.out.println("java " + System.getProperty("java.version") + " on "
                 + System.getProperty("os.name"));
         System.out.println();

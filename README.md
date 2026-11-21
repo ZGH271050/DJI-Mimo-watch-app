@@ -79,7 +79,7 @@ HttpFile ──GET /v2?storage&path，支持 HEAD/Range──▶ FileSaver ─�
 ## 4. 目录结构
 
 ```
-watch-osmo\
+OsmoWatch\
   src\AndroidManifest.xml         权限、Activity、前台服务声明
   src\res\values\strings.xml      只有应用名（界面全部代码构建，无 XML 布局）
   src\java\com\watch\osmo\        见上表
@@ -238,9 +238,10 @@ App 内也有一份滚动日志（`Diag`，同时写 logcat 和 `files/osmo.log`
 
 ## 10. 许可与来源
 
+- **本项目（OsmoWatch）以 [MIT](LICENSE) 许可发布，Copyright (c) 2026 ZGH271050。**
 - 协议实现移植自 [KonradIT/osmosis](https://github.com/KonradIT/osmosis)，**MIT License, Copyright (c) 2026 Konrad Iturbe**，许可证副本见 `THIRD_PARTY_LICENSES/osmosis-LICENSE.txt`。
 - CRC/DUML 帧实现源自 osmosis 内标注的 [dimadesu/dji-remote](https://github.com/dimadesu/dji-remote)（同样 MIT）。
-- 本项目为个人自用改造，保留上述版权声明。
+- 使用或再分发时请同时保留上述第三方版权声明。
 
 ---
 
