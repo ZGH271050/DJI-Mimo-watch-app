@@ -146,7 +146,7 @@
 ## v0.2.0 — 2026-11-21 — 修相机固件更新后的"几十次才连上一次"
 
 相机升级固件后，连接变成碰运气。手表上的日志（`/sdcard/Android/data/com.watch.osmo/files/`，
-普通 adb 可拉）把原因钉死了，详见 [TEST-REPORT.md](TEST-REPORT.md) §11：
+普通 adb 可拉）把原因钉死了，详见 [TEST-REPORT.md](TEST-REPORT.md) 的「真机验证」一节：
 
 1. **相机在 `07/47 ConnectToWiFi` 之后 5–6 秒必定断开 BLE（GATT status=8）** —— 它要把射频切给 AP。
    旧代码把这条当致命错误，`fail()` 顺手 `releaseNetwork()`，正好把**还在关联中**的 Wi-Fi 请求撤销。
